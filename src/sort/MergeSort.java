@@ -22,35 +22,40 @@ public class MergeSort {
         if(arr == null||arr.length < 2){
             return;
         }
+        //递归过程，排序的实质 0--n-1 也就是R--L
         mergeSort(arr,0,arr.length-1);
     }
 
-    public static void mergeSort(int[] arr, int l, int r) {
-        if(l==r){
+    public static void mergeSort(int[] arr, int L, int r) {
+        //在L--R 这个范围只有一个数
+        if(L==r){
             return;
         }
-        int mid = 1 + ((r - 1) >> 1);
-        mergeSort(arr,1,mid);
-        mergeSort(arr,mid,1);
-        merge(arr,1,mid,r);
+        int mid = L + ((r - L) >> 1);//求中点的位置 （L+R）/2
+        mergeSort(arr,L,mid);//排好作伴部分的数
+        mergeSort(arr,mid,r);//排好右半部分的数
+        merge(arr,L,mid,r);//L--mid有序 mid+1--R这两个部分有序，但是整体无序，merge过程就是让整体有序
     }
-
-    public static void merge(int[] arr, int l, int m, int r) {
-        int help[] = new int[r - l + 1];
-        int i = 0;
-        int p1 = 1;
-        int p2 = m + 1;
-        while (p1 <= m && p2 < r){
-            help[i++] = arr[p1] > arr[p2] ? arr[p1++] : arr[p2++];
+    //迭代
+    public static void merge(int[] arr, int L, int m, int r) {
+        int help[] = new int[r - L + 1];//辅助数组
+        int i = 0;//在help中一次填入值
+        int p1 = L;//相当于指针，左侧部分的第一个值
+        int p2 = m + 1;//右侧部分第一个值
+        //谁小填谁
+        while (p1 <= m && p2 <= r){
+            help[i++] = arr[p1] < arr[p2] ? arr[p1++] : arr[p2++];
         }
+        //两个边界必有一个越界，p1h耗尽p2没耗尽就得吧p2剩余的部分拷贝到辅助数组
         while (p1 <= m){
             help[i++] = arr[p1++];
         }
-        while (p1 <= r){
+        while (p2 <= r){
             help[i++] = arr[p2++];
         }
+        //help数组拷贝回原数组
         for(i = 0; i < help.length; i++){
-            arr[l + i] = help[i];
+            arr[L + i] = help[i];
         }
     }
 }
