@@ -7,10 +7,6 @@
       <change afterPath="$PROJECT_DIR$/../Arithmetic/src/com/ghj/myoffer/PrintToMaxOfNDigits01.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Arithmetic/src/com/ghj/myoffer/PrintToMaxOfNDigits02.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Arithmetic/src/com/ghj/myoffer/ReverseList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sort/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sort/InsterionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sort/SelectionSort.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../cakeshop/.idea/compiler.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../cakeshop/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../items/ssm-demo/src/main/java/com/ssm/controller/UserController.java" afterDir="false" />
@@ -170,8 +166,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/offer/SmallSum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="58" column="17" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="17" />
+            <state relative-caret-position="66">
+              <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -240,7 +236,7 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
-    <option name="width" value="979" />
+    <option name="width" value="980" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -249,6 +245,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -261,7 +258,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -310,16 +306,19 @@
       <workItem from="1555113674199" duration="6818000" />
       <workItem from="1555339044380" duration="450000" />
       <workItem from="1555339533240" duration="106000" />
+      <workItem from="1555345574967" duration="81000" />
+      <workItem from="1555386180013" duration="28000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29933000" />
+    <option name="totallyTimeSpent" value="30042000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15023474" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15425889" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="设计器" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -429,8 +428,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/offer/SmallSum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="58" column="17" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="17" />
+        <state relative-caret-position="66">
+          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
         </state>
       </provider>
     </entry>
